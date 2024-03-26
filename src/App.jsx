@@ -1,10 +1,13 @@
+import Navbar from "./components/Navbar"
 import styles from "./styles"
 
 
 const App = () => {
   return (
-    <div>
-      
+    <div className="bg-primary w-full overflow-hidden">
+      <div className={`${styles.paddingX} ${styles.flexCenter} ${styles.boxWidth}`}>
+          <Navbar />
+      </div>
     </div>
   )
 }
