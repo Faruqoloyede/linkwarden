@@ -35,3 +35,7 @@
       transform: translateY(0);
     }
   }
+
+  .announce {
+    border: 1px solid #07334F;
+  }
