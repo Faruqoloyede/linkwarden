@@ -4,7 +4,7 @@ import styles from "./styles"
 
 const App = () => {
   return (
-    <div className="bg-primary w-full overflow-hidden">
+    <div className="sm:bg-primary bg-navbar w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter} ${styles.boxWidth}`}>
           <Navbar />
       </div>

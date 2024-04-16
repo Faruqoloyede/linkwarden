@@ -5,6 +5,8 @@ import google from "./google.png";
 import logo from "./logo.png";
 import salesforce from "./salesforce.png";
 import microsoft from "./microsoft.png";
+import menu from "./menu.svg";
+import close from "./close.svg";
 
 export {
     amazon,
@@ -13,5 +15,7 @@ export {
     google,
     logo,
     salesforce,
-    microsoft
+    microsoft,
+    menu,
+    close
 };

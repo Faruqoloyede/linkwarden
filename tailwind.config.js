@@ -8,7 +8,8 @@ module.exports = {
         primary: "#111111",
         grey: "#B7B7B7",
         navbar: "#242424",
-        white: "#FFFFFF"
+        white: "#FFFFFF",
+        blue: "#5312C6"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
