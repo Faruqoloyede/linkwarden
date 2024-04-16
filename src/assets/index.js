@@ -7,6 +7,7 @@ import salesforce from "./salesforce.png";
 import microsoft from "./microsoft.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import collaborate from "./collaborate.mp4";
 
 export {
     amazon,
@@ -17,5 +18,6 @@ export {
     salesforce,
     microsoft,
     menu,
-    close
+    close,
+    collaborate
 };
