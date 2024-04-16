@@ -39,3 +39,8 @@
   .announce {
     border: 1px solid #07334F;
   }
+
+  .img {
+    filter: invert(0.5);
+    row-gap: 20px;
+  }

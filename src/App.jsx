@@ -15,7 +15,7 @@ const App = () => {
         <Hero/>
       </div>
       <div className={`${styles.boxWidth} ${styles.paddingX}`}>
-        {/* <Partner /> */}
+        <Partner />
       </div>
     </div>
   )
