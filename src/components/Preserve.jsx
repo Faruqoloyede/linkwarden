@@ -1,13 +1,11 @@
-import styles from "../styles";
 import { collaborate } from "../assets";
 
-const Features = () => {
- 
+const Preserve = () => {
   return (
-    <section className={`sm:${styles.paddingY} py-16`}>
-      <div className="flex flex-wrap items-center justify-between gap-10 relative">
+    <section className="sm:py-[300px] py-16">
+       <div className="flex flex-wrap items-center justify-between gap-10 relative">
         <div>
-            <h3 className="text-white font-bold text-3xl mb-3">Collect and Organize</h3>
+            <h3 className="text-white font-bold text-3xl mb-3">Preserve Webpages</h3>
             <ul className="list-none">
               <li className="flex items-center py-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 256 256" class="text-2xl text-secondary"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z" className="text-icon text-2xl"></path></svg>
@@ -15,11 +13,11 @@ const Features = () => {
               </li>
               <li className="flex items-center py-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 256 256" class="text-2xl text-secondary"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z" className="text-icon text-2xl"></path></svg>
-              <p className="text-white ml-2">Organize Links with Collections, Sub-Collections, and Tags.</p>
+              <p className="text-white ml-2">Safeguard your webpages against <a href="#" className="underline">Link Rot.</a></p>
               </li>
               <li className="flex items-center py-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 256 256" class="text-2xl text-secondary"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z" className="text-icon text-2xl"></path></svg>
-              <p className="text-white ml-2">Create new Collections to group related Links..</p>
+              <p className="text-white ml-2">Download your archived webpages.</p>
               </li>
             </ul>
         </div>
@@ -31,4 +29,4 @@ const Features = () => {
   )
 }
 
-export default Features
+export default Preserve
