@@ -20,3 +20,18 @@ export const navlinks = [
         title: "Blog"
     },
 ]
+
+export const buttons = [
+    {
+        text: "personal use"
+    },
+    // {
+    //     text: "inspiration"
+    // },
+    // {
+    //     text: "inspiration"
+    // },
+    // {
+    //     text: "inspiration"
+    // },
+]

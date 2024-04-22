@@ -1,6 +1,6 @@
 import { collaborate } from "../assets";
 
-const Preserve = () => {
+const Share = () => {
   return (
     <section className="sm:py-[200px] py-16">
        <div className="flex flex-wrap items-center justify-between gap-10 relative">
@@ -29,4 +29,4 @@ const Preserve = () => {
   )
 }
 
-export default Preserve
+export default Share

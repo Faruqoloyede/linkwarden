@@ -10,7 +10,9 @@ module.exports = {
         navbar: "#242424",
         white: "#FFFFFF",
         blue: "#5312C6",
-        icon: "#79C5FC"
+        icon: "#79C5FC",
+        service: "#181818",
+        border: "#333333"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
