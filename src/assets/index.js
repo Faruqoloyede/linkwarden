@@ -8,6 +8,25 @@ import microsoft from "./microsoft.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import collaborate from "./collaborate.mp4";
+import search from "./search.png";
+import opensource from "./opensource.png";
+import research from "./research.png";
+import responsive from "./responsive.png";
+import user from "./user.png";
+import group from "./group.png";
+import extension from "./extension.png";
+import check from "./check.png";
+import bookmark from "./bookmark.png";
+import down from "./down.png";
+import pin from "./pin.png";
+import bulb from "./bulb.png";
+import category from "./category.png";
+import tag from "./tag.png";
+import sync from "./sync.png";
+import power from "./power.png";
+
+
+
 
 export {
     amazon,
@@ -19,5 +38,21 @@ export {
     microsoft,
     menu,
     close,
-    collaborate
+    collaborate,
+    search,
+    opensource,
+    research,
+    responsive,
+    user,
+    group,
+    extension,
+    check,
+    bookmark,
+    down,
+    pin,
+    bulb,
+    category,
+    tag,
+    power,
+    sync
 };

@@ -1,11 +1,10 @@
-import React from 'react'
-import { Personal } from '../constant'
+import { research } from "../constant"
 
-const PersonalUse = ({ styles }) => {
+const Research = ({ styles }) => {
   return (
     <div className={`${styles} flex flex-wrap items-center justify-between gap-6 py-4 `}>
 
-      {Personal.map((item)=>(
+      {research.map((item)=>(
         <div key={item.id} className='flex items-center '>
             <div className=' flex items-center justify-center bg-service rounded-full border border-border p-3 mr-3 '>
                 <img src={item.icon} className='w-[2rem]' />
@@ -21,4 +20,4 @@ const PersonalUse = ({ styles }) => {
   )
 }
 
-export default PersonalUse
+export default Research

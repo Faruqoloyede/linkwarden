@@ -2,6 +2,7 @@
 // import Navbar from "./components/Navbar"
 // import Partner from "./components/Partner"
 import { Hero, Navbar, Partner, Features, Preserve, Share, Services, Usecases } from "./components"
+
 import styles from "./styles"
 
 
