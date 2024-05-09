@@ -211,3 +211,105 @@ export const project = [
         content: "Ensure all team members have access to the same materials."
     },
 ]
+
+export const free = [
+    {
+        icon: check,
+        text: "Hosted by yourself."
+    },
+    {
+        icon: check,
+        text: "Unlimited Links."
+    },
+    {
+        icon: check,
+        text: "Unlimited Collections."
+    },
+    {
+        icon: check,
+        text: "Unlimited Tags."
+    },
+    {
+        icon: check,
+        text: "All the premium features."
+    }
+]
+
+export const cloud = [
+    {
+        icon: check,
+        text: "Hosted by us."
+    },
+    {
+        icon: check,
+        text: "Up to 30,000 Links."
+    },
+    {
+        icon: check,
+        text: "Up to 30,000 Links."
+    },
+    {
+        icon: check,
+        text: "Unlimited Collections."
+    },
+    {
+        icon: check,
+        text: "All the premium features."
+    },
+    {
+        icon: check,
+        text: "Priority support."
+    },
+    {
+        icon: check,
+        text: "Automatic updates."
+    },
+    {
+        icon: check,
+        text: "Support open source!"
+    }
+]
+
+export const custom = [
+    {
+        icon: check,
+        text: "Hosted by us/yourself."
+    },
+    {
+        icon: check,
+        text: "Unlimited Links."
+    },
+    {
+        icon: check,
+        text: "Unlimited Collections."
+    },
+    {
+        icon: check,
+        text: "Unlimited Tags."
+    },
+    {
+        icon: check,
+        text: "All the premium features."
+    },
+    {
+        icon: check,
+        text: "Priority support."
+    },
+    {
+        icon: check,
+        text: "Automatic updates."
+    },
+    {
+        icon: check,
+        text: "Fully customizable instance."
+    },
+    {
+        icon: check,
+        text: "Single Sign-On (SSO)."
+    },
+    {
+        icon: check,
+        text: "Support open source!"
+    }
+]
+

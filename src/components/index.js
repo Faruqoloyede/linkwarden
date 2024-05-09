@@ -6,6 +6,7 @@ import Preserve from "./Preserve";
 import Share from "./Share";
 import Services from "./Services";
 import Usecases from "./Usecases";
+import Plan from "./Plan"
 
 export {
     Navbar,
@@ -15,5 +16,6 @@ export {
     Preserve,
     Share,
     Services,
-    Usecases
+    Usecases,
+    Plan
 }

@@ -10,7 +10,7 @@ const Services = () => {
         {service.map((item, index)=>(
            <div className="bg-service flex flex-col items-center justify-center text-white p-6 border border-border rounded-xl max-w-[370px]" key={index}>
           <div className="bg-blue p-2 w-fit rounded-2xl mb-3">
-          <img src={item.icon}  className="w-[4rem]" />
+          <img src={item.icon}  className="w-[3rem]" />
           </div>
           <div className="text-center">
             <h4 className="font-bold text-lg mb-2">{item.title}</h4>

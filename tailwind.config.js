@@ -12,7 +12,10 @@ module.exports = {
         blue: "#5312C6",
         icon: "#79C5FC",
         service: "#181818",
-        border: "#333333"
+        border: "#333333",
+        red: "#DC2626",
+        icon: "#65A3CF",
+        gradient: "#3F4346"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
