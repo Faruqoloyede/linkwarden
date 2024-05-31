@@ -24,7 +24,8 @@ import category from "./category.png";
 import tag from "./tag.png";
 import sync from "./sync.png";
 import power from "./power.png";
-
+import add from "./add.png";
+import cancel from "./cancel.png"
 
 
 
@@ -54,5 +55,7 @@ export {
     category,
     tag,
     power,
-    sync
+    sync,
+    add,
+    cancel
 };
