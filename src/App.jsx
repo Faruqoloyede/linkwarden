@@ -1,7 +1,5 @@
-// import Hero from "./components/Hero"
-// import Navbar from "./components/Navbar"
-// import Partner from "./components/Partner"
-import { Hero, Navbar, Partner, Features, Preserve, Share, Services, Usecases, Plan, Faq } from "./components"
+
+import { Hero, Navbar, Partner, Features, Preserve, Share, Services, Usecases, Plan, Faq, Footer } from "./components"
 
 import styles from "./styles"
 
@@ -25,6 +23,7 @@ const App = () => {
         <Usecases />
         <Plan />
         <Faq />
+        <Footer />
       </div>
     </div>
   )

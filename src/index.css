@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+  font-family: "Poppins", "sans-serif";
+}
+
 .login_btn {
     border: 1px solid #B7B7B7;
     

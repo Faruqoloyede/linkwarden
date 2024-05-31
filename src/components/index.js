@@ -8,6 +8,7 @@ import Services from "./Services";
 import Usecases from "./Usecases";
 import Plan from "./Plan";
 import Faq from "./Faq";
+import Footer from "./Footer";
 
 export {
     Navbar,
@@ -19,5 +20,6 @@ export {
     Services,
     Usecases,
     Plan,
-    Faq
+    Faq,
+    Footer
 }

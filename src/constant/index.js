@@ -352,3 +352,34 @@ export const faq = [
         ]
     },
 ]
+
+export const footer = [
+    {
+        id: "features",
+        title: "Features"
+    },
+    {
+        id: "pricing",
+        title: "Pricing"
+    },
+    {
+        id: "faqs",
+        title: "FAQS"
+    },
+    {
+        id: "docs",
+        title: "DOCS"
+    },
+    {
+        id: "blog",
+        title: "Blog"
+    },
+    {
+        id: "blog",
+        title: "Terms Of Service"
+    },
+    {
+        id: "blog",
+        title: "Privacy Policy"
+    },
+]
