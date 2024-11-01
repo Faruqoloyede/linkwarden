@@ -26,6 +26,9 @@ import sync from "./sync.png";
 import power from "./power.png";
 import add from "./add.png";
 import cancel from "./cancel.png"
+import line from "./line.png"
+import line2 from "./line2.png"
+
 
 
 
@@ -57,5 +60,7 @@ export {
     power,
     sync,
     add,
-    cancel
+    cancel,
+    line,
+    line2,
 };

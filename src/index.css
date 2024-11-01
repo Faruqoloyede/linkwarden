@@ -9,3 +9,31 @@
   font-family: "Poppins", "sans-serif";
 }
 
+.container {
+  @apply mx-auto max-w-[1252px] px-16 max-xl:px-10 max-lg:px-6 max-sm:px-4;
+}
+
+body {
+  @apply bg-primary font-poppins text-[16px] tracking-[-0.03em] text-white
+}
+
+.h1 {
+  @apply text-[48px] font-poppins leading-[84px] tracking-[-0.03em];
+}
+
+.h2 {
+  @apply text-[40px] font-poppins
+}
+
+.g1 {
+  background: linear-gradient(229.46deg, #673AB7 0%, #4B03CD 86.82%);
+}
+
+.nav-link:hover {
+  color: #673AB7;
+}
+
+.sidebar-before {
+  @apply max-lg:before:absolute max-lg:before:-right-64 max-lg:before:top-2/5 max-lg:before:h-[440px] max-lg:before:w-[252px] max-lg:before:bg-black max-lg:before:blur-[200px] max-lg:before:content-[''];
+}
+
