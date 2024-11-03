@@ -4,7 +4,7 @@ import React from 'react'
 const Button = ({ children, href, icon, containerCLass }) => {
     const Inner = ()=>(
         <>
-            <span className='flex items-center'>
+            <span className='flex items-center max-lg:text-sm'>
                 {icon && (
                     <img src={icon} alt="icon" className='size-5 mr-3 object-contain' />
                 )}

@@ -1,19 +1,30 @@
 import clsx from 'clsx'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { logo, close, menu, line } from "../assets"
 import { Link as LinkScroll } from 'react-scroll'
 import { navlinks } from '../constant'
 
 
 const Header = () => {
+  const [toggle, setToggle] = useState(false)
+  const [HasScroll, setHasScroll] = useState(false)
   const Navlink = ({ title })=>(
     <LinkScroll to={title} offset={-100} spy smooth className='text-white uppercase font-poppins font-normal transition-colors duration-500 cursor-pointer hover:text-[#5312C6] max-lg:my-4'>{title}</LinkScroll>
   ) 
-  const [toggle, setToggle] = useState(false)
+
+  useEffect(()=>{
+    const Handlescroll = ()=>{
+      setHasScroll(window.scrollY > 32);
+    };
+    window.addEventListener("scroll", Handlescroll);
+    return ()=>{
+      window.removeEventListener("scroll", Handlescroll)
+    }
+  }, [])
   
   return (
     <header>
-        <div className={clsx("fixed top-0 left-0 z-50 w-full py-10 transition-all duration-500")}>
+        <div className={clsx("fixed top-0 left-0 z-50 w-full py-10 transition-all duration-500", HasScroll && "bg-primary py-10 backdrop-blur-[8px]")}>
             <div className='container flex h-4 items-center justify-between'>
                 <LinkScroll to='home' offset={-100} spy smooth>
                   <img src={logo} alt="logo" width={200} height={55} />
