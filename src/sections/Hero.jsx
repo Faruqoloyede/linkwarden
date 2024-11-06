@@ -16,7 +16,7 @@ const Hero = () => {
                 <Button containerCLass= "border-2 border-border" icon="/star.png">Star us on GitHub</Button>
               </div> 
               <div className='pointer-events-none absolute top-20 left-0 z-2 mx-auto w-[100%]'>
-                    <img src={line} alt="" />
+                    <img src={line} alt="line" />
                 </div>
                 <div className='relative z-4 mt-10'>
                 <img src={dashboard} alt="" />

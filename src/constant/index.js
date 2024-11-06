@@ -41,14 +41,17 @@ export const preserve = [
 
 export const features = [
     {
+        id: 1,
         icon: check,
         text: "Collect webpages and bookmarks from any browser."
     },
     {
+        id: 2,
         icon: check,
         text: "Organize Links with Collections, Sub-Collections, and Tags."
     },
     {
+        id: 3,
         icon: check,
         text: "Create new Collections to group related Links.."
     },

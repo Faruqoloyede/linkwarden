@@ -28,7 +28,8 @@ import add from "./add.png";
 import cancel from "./cancel.png"
 import line from "./line.png"
 import line2 from "./line2.png"
-
+import service from "./service.png"
+import mask from"./mask.png"
 
 
 
@@ -63,4 +64,6 @@ export {
     cancel,
     line,
     line2,
+    service,
+    mask
 };
