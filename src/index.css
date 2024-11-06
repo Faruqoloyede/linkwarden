@@ -29,6 +29,13 @@ body {
   background: linear-gradient(229.46deg, #673AB7 0%, #4B03CD 86.82%);
 }
 
+.g2 {
+  background: linear-gradient(121.75deg, rgba(236, 200, 200, 0.2) 0.95%, rgba(0, 0, 0, 0.12) 37.87%, rgba(255, 255, 255, 0.02) 84.35%);
+
+}
+
+
+
 .nav-link:hover {
   color: #673AB7;
 }

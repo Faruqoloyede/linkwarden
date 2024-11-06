@@ -1,14 +1,17 @@
 import React from 'react'
 import Header from './sections/Header'
 import Hero from './sections/Hero'
-import Company from './sections/Company'
+import Sponsor from './sections/Sponsor'
+import Organize from './sections/Organize'
+
 
 const App = () => {
   return (
     <div className='overflow-hidden'>
       <Header />
       <Hero />
-      <Company />
+      <Sponsor />
+      <Organize/>
     </div>
   )
 }
