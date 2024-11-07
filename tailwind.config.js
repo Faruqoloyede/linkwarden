@@ -12,6 +12,7 @@ export default {
         icon: "#79C5FC",
         service: "#181818",
         border: "#828282",
+        b2: "#38353D",
         red: "#DC2626",
         s2: "#828282",
         icon: "#65A3CF",

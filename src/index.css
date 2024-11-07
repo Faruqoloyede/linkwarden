@@ -34,8 +34,14 @@ body {
 
 }
 
+.box {
+  background: url('./assets/line2.png');
 
+}
 
+.icon {
+  background: linear-gradient(225deg, #673AB7 0%, #3A00A2 100%);
+}
 .nav-link:hover {
   color: #673AB7;
 }
