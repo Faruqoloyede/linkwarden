@@ -1,4 +1,4 @@
-import { check, opensource, responsive, extension, down, search, pin, group, bookmark, category, tag, sync, power } from "../assets";
+import { check, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12 } from "../assets";
 
 export const navlinks = [
     {
@@ -23,21 +23,21 @@ export const navlinks = [
     },
 ]
 
-export const preserve = [
-    {
-        icon: check,
-        text: "Collect webpages and bookmarks from any browser."
-    },
-    {
-        icon: check,
-        text: "Safeguard your webpages against "
-    },
-    {
-        icon: check,
-        text: "Download your archived webpages."
-    },
+// export const preserve = [
+//     {
+//         icon: check,
+//         text: "Collect webpages and bookmarks from any browser."
+//     },
+//     {
+//         icon: check,
+//         text: "Safeguard your webpages against "
+//     },
+//     {
+//         icon: check,
+//         text: "Download your archived webpages."
+//     },
     
-]
+// ]
 
 export const features = [
     {
@@ -57,264 +57,264 @@ export const features = [
     },
 ]
 
-export const share = [
-    {
-        icon: check,
-        text: "Collaborate on gathering resources under a Collection."
-    },
-    {
-        icon: check,
-        text: "Assign customizable permissions to each member."
-    },
-    {
-        icon: check,
-        text: "Easily share curated collections with the world."
-    },
-]
+// export const share = [
+//     {
+//         icon: check,
+//         text: "Collaborate on gathering resources under a Collection."
+//     },
+//     {
+//         icon: check,
+//         text: "Assign customizable permissions to each member."
+//     },
+//     {
+//         icon: check,
+//         text: "Easily share curated collections with the world."
+//     },
+// ]
 
-export const service = [
-    {
-        icon: opensource,
-        title: "Open Source, Self-Hostable",
-        text: "We published our entire source code to GitHub for transparency and trust."
-    },
-    {
-        icon: responsive,
-        title: "Responsive Design",
-        text: "Designed for every screen size, from widescreen monitors down to smartphones."
-    },
-    {
-        icon: pin,
-        title: "Pin your Favorite links",
-        text: "Pin your favorite webpages to the dashboard for easy access anytime."
-    },
-    {
-        icon: extension,
-        title: "Browser Extension",
-        text: "Collect webpages directly from your browser with our open-source extension."
-    },
-    {
-        icon: search,
-        title: "Powerful Search",
-        text: "You can search and filter all your curated contents across all your collections effortlessly."
-    },
-    {
-        icon: down,
-        title: "Installable PWA for Mobile",
-        text: "App-like experience across devices with PWA support, ensuring optimal performance and accessibility for all users."
-    },
-]
+// export const service = [
+//     {
+//         icon: opensource,
+//         title: "Open Source, Self-Hostable",
+//         text: "We published our entire source code to GitHub for transparency and trust."
+//     },
+//     {
+//         icon: responsive,
+//         title: "Responsive Design",
+//         text: "Designed for every screen size, from widescreen monitors down to smartphones."
+//     },
+//     {
+//         icon: pin,
+//         title: "Pin your Favorite links",
+//         text: "Pin your favorite webpages to the dashboard for easy access anytime."
+//     },
+//     {
+//         icon: extension,
+//         title: "Browser Extension",
+//         text: "Collect webpages directly from your browser with our open-source extension."
+//     },
+//     {
+//         icon: search,
+//         title: "Powerful Search",
+//         text: "You can search and filter all your curated contents across all your collections effortlessly."
+//     },
+//     {
+//         icon: down,
+//         title: "Installable PWA for Mobile",
+//         text: "App-like experience across devices with PWA support, ensuring optimal performance and accessibility for all users."
+//     },
+// ]
 
-export const Personal = [
-    {
-        id: 1,
-        icon: bookmark,
-        text: "Bookmark Organization",
-        content: "Store and categorize links to articles, blog posts, and online content for easy retrieval."
-    },
-    {
-        id: 2,
-        icon: group,
-        text: "Seamless Collaboration",
-        content: "Share essential links and references among your friend or even publicly."
-    },
-    {
-        id: 3,
-        icon: down,
-        text: "Content Preservation",
-        content: "Keep a permanent snapshot of links regardless of any changes to the original content."
-    },
+// export const Personal = [
+//     {
+//         id: 1,
+//         icon: bookmark,
+//         text: "Bookmark Organization",
+//         content: "Store and categorize links to articles, blog posts, and online content for easy retrieval."
+//     },
+//     {
+//         id: 2,
+//         icon: group,
+//         text: "Seamless Collaboration",
+//         content: "Share essential links and references among your friend or even publicly."
+//     },
+//     {
+//         id: 3,
+//         icon: down,
+//         text: "Content Preservation",
+//         content: "Keep a permanent snapshot of links regardless of any changes to the original content."
+//     },
     
-    {
-        id: 4,
-        icon: search,
-        text: "Easy Access",
-        content: "Conveniently revisit favorite or important online materials at any time."
-    },
+//     {
+//         id: 4,
+//         icon: search,
+//         text: "Easy Access",
+//         content: "Conveniently revisit favorite or important online materials at any time."
+//     },
    
-]
+// ]
 
-export const design = [
-    {
-        id:1,
-        icon:category,
-        text: "Centralized Resource Collection",
-        content: "Aggregate and organize diverse design inspirations in one place."
-    },
-    {
-        id:2,
-        icon:group,
-        text: "Collaboration and Sharing",
-        content: "Teams can share and build a design resource pool together."
-    },
-    {
-        id:3,
-        icon:tag,
-        text: "Tagging and Organization",
-        content: "Use tags and categories for quick inspiration retrieval."
-    },
-    {
-        id:4,
-        icon:responsive,
-        text: "Access Anywhere",
-        content: "Save and access design inspirations from any device."
-    },
-]
+// export const design = [
+//     {
+//         id:1,
+//         icon:category,
+//         text: "Centralized Resource Collection",
+//         content: "Aggregate and organize diverse design inspirations in one place."
+//     },
+//     {
+//         id:2,
+//         icon:group,
+//         text: "Collaboration and Sharing",
+//         content: "Teams can share and build a design resource pool together."
+//     },
+//     {
+//         id:3,
+//         icon:tag,
+//         text: "Tagging and Organization",
+//         content: "Use tags and categories for quick inspiration retrieval."
+//     },
+//     {
+//         id:4,
+//         icon:responsive,
+//         text: "Access Anywhere",
+//         content: "Save and access design inspirations from any device."
+//     },
+// ]
 
-export const research = [
-    {
-        id:1,
-        icon:bookmark,
-        text: "Resource Gathering",
-        content: "Gather and organize academic links and articles."
-    },
-    {
-        id:2,
-        icon:down,
-        text: "Permanent Access",
-        content: "Archive webpages to ensure continuous access despite changes or removal of online sources."
-    },
-    {
-        id:3,
-        icon:group,
-        text: "Collaborative Research",
-        content: "Pool resources and references through shared collaboration features."
-    },
-    {
-        id:4,
-        icon:search,
-        text: "Easy Access",
-        content: "Quickly store and access information through organized tags and categories."
-    },
-]
+// export const research = [
+//     {
+//         id:1,
+//         icon:bookmark,
+//         text: "Resource Gathering",
+//         content: "Gather and organize academic links and articles."
+//     },
+//     {
+//         id:2,
+//         icon:down,
+//         text: "Permanent Access",
+//         content: "Archive webpages to ensure continuous access despite changes or removal of online sources."
+//     },
+//     {
+//         id:3,
+//         icon:group,
+//         text: "Collaborative Research",
+//         content: "Pool resources and references through shared collaboration features."
+//     },
+//     {
+//         id:4,
+//         icon:search,
+//         text: "Easy Access",
+//         content: "Quickly store and access information through organized tags and categories."
+//     },
+// ]
 
-export const project = [
-    {
-        id:1,
-        icon:bookmark,
-        text: "Team Resource Gathering",
-        content: "Collectively gather and organize webpages relevant to a project."
-    },
-    {
-        id:2,
-        icon:group,
-        text: "Seamless Collaboration",
-        content: "Share essential resources and references among team members."
-    },
-    {
-        id:3,
-        icon:power,
-        text: "Project Efficiency",
-        content: "Access a centralized resource hub for all project-related information."
-    },
-    {
-        id:4,
-        icon:sync,
-        text: "Information Sharing",
-        content: "Ensure all team members have access to the same materials."
-    },
-]
+// export const project = [
+//     {
+//         id:1,
+//         icon:bookmark,
+//         text: "Team Resource Gathering",
+//         content: "Collectively gather and organize webpages relevant to a project."
+//     },
+//     {
+//         id:2,
+//         icon:group,
+//         text: "Seamless Collaboration",
+//         content: "Share essential resources and references among team members."
+//     },
+//     {
+//         id:3,
+//         icon:power,
+//         text: "Project Efficiency",
+//         content: "Access a centralized resource hub for all project-related information."
+//     },
+//     {
+//         id:4,
+//         icon:sync,
+//         text: "Information Sharing",
+//         content: "Ensure all team members have access to the same materials."
+//     },
+// ]
 
-export const free = [
-    {
-        icon: check,
-        text: "Hosted by yourself."
-    },
-    {
-        icon: check,
-        text: "Unlimited Links."
-    },
-    {
-        icon: check,
-        text: "Unlimited Collections."
-    },
-    {
-        icon: check,
-        text: "Unlimited Tags."
-    },
-    {
-        icon: check,
-        text: "All the premium features."
-    }
-]
+// export const free = [
+//     {
+//         icon: check,
+//         text: "Hosted by yourself."
+//     },
+//     {
+//         icon: check,
+//         text: "Unlimited Links."
+//     },
+//     {
+//         icon: check,
+//         text: "Unlimited Collections."
+//     },
+//     {
+//         icon: check,
+//         text: "Unlimited Tags."
+//     },
+//     {
+//         icon: check,
+//         text: "All the premium features."
+//     }
+// ]
 
-export const cloud = [
-    {
-        icon: check,
-        text: "Hosted by us."
-    },
-    {
-        icon: check,
-        text: "Up to 30,000 Links."
-    },
-    {
-        icon: check,
-        text: "Up to 30,000 Links."
-    },
-    {
-        icon: check,
-        text: "Unlimited Collections."
-    },
-    {
-        icon: check,
-        text: "All the premium features."
-    },
-    {
-        icon: check,
-        text: "Priority support."
-    },
-    {
-        icon: check,
-        text: "Automatic updates."
-    },
-    {
-        icon: check,
-        text: "Support open source!"
-    }
-]
+// export const cloud = [
+//     {
+//         icon: check,
+//         text: "Hosted by us."
+//     },
+//     {
+//         icon: check,
+//         text: "Up to 30,000 Links."
+//     },
+//     {
+//         icon: check,
+//         text: "Up to 30,000 Links."
+//     },
+//     {
+//         icon: check,
+//         text: "Unlimited Collections."
+//     },
+//     {
+//         icon: check,
+//         text: "All the premium features."
+//     },
+//     {
+//         icon: check,
+//         text: "Priority support."
+//     },
+//     {
+//         icon: check,
+//         text: "Automatic updates."
+//     },
+//     {
+//         icon: check,
+//         text: "Support open source!"
+//     }
+// ]
 
-export const custom = [
-    {
-        icon: check,
-        text: "Hosted by us/yourself."
-    },
-    {
-        icon: check,
-        text: "Unlimited Links."
-    },
-    {
-        icon: check,
-        text: "Unlimited Collections."
-    },
-    {
-        icon: check,
-        text: "Unlimited Tags."
-    },
-    {
-        icon: check,
-        text: "All the premium features."
-    },
-    {
-        icon: check,
-        text: "Priority support."
-    },
-    {
-        icon: check,
-        text: "Automatic updates."
-    },
-    {
-        icon: check,
-        text: "Fully customizable instance."
-    },
-    {
-        icon: check,
-        text: "Single Sign-On (SSO)."
-    },
-    {
-        icon: check,
-        text: "Support open source!"
-    }
-]
+// export const custom = [
+//     {
+//         icon: check,
+//         text: "Hosted by us/yourself."
+//     },
+//     {
+//         icon: check,
+//         text: "Unlimited Links."
+//     },
+//     {
+//         icon: check,
+//         text: "Unlimited Collections."
+//     },
+//     {
+//         icon: check,
+//         text: "Unlimited Tags."
+//     },
+//     {
+//         icon: check,
+//         text: "All the premium features."
+//     },
+//     {
+//         icon: check,
+//         text: "Priority support."
+//     },
+//     {
+//         icon: check,
+//         text: "Automatic updates."
+//     },
+//     {
+//         icon: check,
+//         text: "Fully customizable instance."
+//     },
+//     {
+//         icon: check,
+//         text: "Single Sign-On (SSO)."
+//     },
+//     {
+//         icon: check,
+//         text: "Support open source!"
+//     }
+// ]
 
 export const faq = [
     {
@@ -384,5 +384,80 @@ export const footer = [
     {
         id: "blog",
         title: "Privacy Policy"
+    },
+]
+
+export const service = [
+    {
+        id:1,
+        icon: f1,
+        title: "Open Source, Self-hostable",
+        content: "Our source code is on GitHub for easy deployment on your machine."
+    },
+    {
+        id:2,
+        icon: f1,
+        title: "Responsive Design",
+        content: "Responsive design for all screens, from widescreen to smartphones."
+    },
+    {
+        id:3,
+        icon: f1,
+        title: "Open Source, Self-hostable",
+        content: "Our source code is on GitHub for easy deployment on your machine."
+    },
+    {
+        id:4,
+        icon: f1,
+        title: "Open Source, Self-hostable",
+        content: "Our source code is on GitHub for easy deployment on your machine."
+    },
+    {
+        id:5,
+        icon: f1,
+        title: "Open Source, Self-hostable",
+        content: "Our source code is on GitHub for easy deployment on your machine."
+    },
+    {
+        id:6,
+        icon: f1,
+        title: "Open Source, Self-hostable",
+        content: "Our source code is on GitHub for easy deployment on your machine."
+    },
+    {
+        id:7,
+        icon: f1,
+        title: "Open Source, Self-hostable",
+        content: "Our source code is on GitHub for easy deployment on your machine."
+    },
+    {
+        id:8,
+        icon: f1,
+        title: "Open Source, Self-hostable",
+        content: "Our source code is on GitHub for easy deployment on your machine."
+    },
+    {
+        id:9,
+        icon: f1,
+        title: "Open Source, Self-hostable",
+        content: "Our source code is on GitHub for easy deployment on your machine."
+    },
+    {
+        id:10,
+        icon: f1,
+        title: "Open Source, Self-hostable",
+        content: "Our source code is on GitHub for easy deployment on your machine."
+    },
+    {
+        id:11,
+        icon: f1,
+        title: "Open Source, Self-hostable",
+        content: "Our source code is on GitHub for easy deployment on your machine."
+    },
+    {
+        id:12,
+        icon: f1,
+        title: "Open Source, Self-hostable",
+        content: "Our source code is on GitHub for easy deployment on your machine."
     },
 ]
