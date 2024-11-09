@@ -260,12 +260,6 @@ export const plans = [
             "Up to 30,000 Links.",
             "Unlimited Collections.",
             "Unlimited Tags.",
-            "All the premium",
-            "Priority support.",
-            "Automatic updates.",
-            "Fully customizable instance.",
-            "Single Sign-On (SSO).",
-            "Support open source!"
 
         ]
 

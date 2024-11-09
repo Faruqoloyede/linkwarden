@@ -34,7 +34,10 @@ body {
 
 }
 
+.g3 {
+  background: linear-gradient(225deg, #9763F4 0%, #3A00A2 100%);
 
+}
 
 .box {
   background: url('./assets/line2.png');

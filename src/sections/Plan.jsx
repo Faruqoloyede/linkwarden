@@ -4,6 +4,8 @@ import { Element } from 'react-scroll'
 import { useState } from 'react'
 import { plans } from '../constant'
 import CountUp from 'react-countup'
+import Button from '../components/Button'
+import { check } from '../assets'
 
 const Plan = () => {
     const [monthly, setMonthly] = useState(false)
@@ -20,7 +22,7 @@ const Plan = () => {
                     <h3 className='font-poppins font-semibold text-4xl max-mmd:text-3xl max-sm:text-2xl text-center my-10'>Pick the Right Plan for You</h3>
                     <div className='scroll-hide relative z-2 mt-12 flex items-start gap-5 max-xl:gap-5 max-xl:overflow-auto max-xl:pt-6'>
                         {plans.map((plan, index)=>(
-                            <div key={plan.id} className={clsx("max-xl:min-w-80 border-2 p-6 rounded-[12px] border-pb mt-12 xl:w-[calc(33.33%+2px)]", index === 1 && ("g4 h-960 mt-0 g2 "))}>
+                            <div key={plan.id} className={clsx("max-xl:min-w-80 h-auto border-2 p-6 rounded-[12px] border-pb mt-16 xl:w-[calc(33.33%+2px)]", index === 1 && ("g4 h-auto -mt-5 g2 "))}>
                                 <div className='flex flex-col items-center justify-center'>
                                     <h3 className='text-xl font-normal font-poppins text-icon'>{plan.caption}</h3>
                                     <div className='relative z-2 flex items-center justify-center my-5'>
@@ -35,6 +37,18 @@ const Plan = () => {
                                         </div>
                                         <div className='relative font-poppins font-semibold'>{monthly ? "/mon" :"/year"}</div>
                                     </div>
+                                    <div className='my-5'>
+                                    <Button containerCLass={clsx("g2 border-2 border-pb", index === 1 && "g3 border-none")}>Get Started Now</Button>
+
+                                    </div>
+                                    <ul className='mx-auto space-y-4 xl:px-7'>
+                                        {plan.feature.map((feature)=>(
+                                            <li key={feature} className='relative flex items-center gap-5'>
+                                                <img src={check} alt="check" className='size-10 object-contain' />
+                                                <p className='flex-1'>{feature}</p>
+                                            </li>
+                                        ))}
+                                    </ul>
                                 </div>
                             </div>
                         ))}
