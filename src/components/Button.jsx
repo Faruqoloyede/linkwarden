@@ -17,7 +17,7 @@ const Button = ({ children, href, icon, containerCLass }) => {
         {children}
     </a>
   ) : (
-    <button className={clsx('relative rounded-2xl shadow-md px-7 py-4', containerCLass)}>
+    <button className={clsx('relative rounded-full shadow-md px-7 py-4 z-4', containerCLass)}>
         <Inner />
     </button>
   )
