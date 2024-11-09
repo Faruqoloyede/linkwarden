@@ -215,106 +215,63 @@ export const features = [
 //     },
 // ]
 
-// export const free = [
-//     {
-//         icon: check,
-//         text: "Hosted by yourself."
-//     },
-//     {
-//         icon: check,
-//         text: "Unlimited Links."
-//     },
-//     {
-//         icon: check,
-//         text: "Unlimited Collections."
-//     },
-//     {
-//         icon: check,
-//         text: "Unlimited Tags."
-//     },
-//     {
-//         icon: check,
-//         text: "All the premium features."
-//     }
-// ]
+export const plans = [
+    {
+        id: 0,
+        caption:"Self-Hosted" ,
+        monthly: "2",
+        yearly: "5",
+        feature: [
+            "Hosted by yourself.",
+            "Unlimited Links.",
+            "Unlimited Collections.",
+            "Unlimited Tags.",
+            "All the premium features."
+        ]
+    },
+    {
+        id: 1,
+        caption: "Cloud",
+        monthly: 3,
+        yearly: 7,
+        title: "Per User",
+        feature: [
+            "Hosted by us.",
+            "Up to 30,000 Links.",
+            "Up to 30,000 Links.",
+            "Unlimited Collections.",
+            "All the premium features.",
+            "Priority support.",
+            "Automatic updates.",
+            "Support open source!"
 
-// export const cloud = [
-//     {
-//         icon: check,
-//         text: "Hosted by us."
-//     },
-//     {
-//         icon: check,
-//         text: "Up to 30,000 Links."
-//     },
-//     {
-//         icon: check,
-//         text: "Up to 30,000 Links."
-//     },
-//     {
-//         icon: check,
-//         text: "Unlimited Collections."
-//     },
-//     {
-//         icon: check,
-//         text: "All the premium features."
-//     },
-//     {
-//         icon: check,
-//         text: "Priority support."
-//     },
-//     {
-//         icon: check,
-//         text: "Automatic updates."
-//     },
-//     {
-//         icon: check,
-//         text: "Support open source!"
-//     }
-// ]
+        ]
 
-// export const custom = [
-//     {
-//         icon: check,
-//         text: "Hosted by us/yourself."
-//     },
-//     {
-//         icon: check,
-//         text: "Unlimited Links."
-//     },
-//     {
-//         icon: check,
-//         text: "Unlimited Collections."
-//     },
-//     {
-//         icon: check,
-//         text: "Unlimited Tags."
-//     },
-//     {
-//         icon: check,
-//         text: "All the premium features."
-//     },
-//     {
-//         icon: check,
-//         text: "Priority support."
-//     },
-//     {
-//         icon: check,
-//         text: "Automatic updates."
-//     },
-//     {
-//         icon: check,
-//         text: "Fully customizable instance."
-//     },
-//     {
-//         icon: check,
-//         text: "Single Sign-On (SSO)."
-//     },
-//     {
-//         icon: check,
-//         text: "Support open source!"
-//     }
-// ]
+    },
+    {
+        id: 2,
+        caption: "Enterprise",
+        monthly: 10,
+        yearly: 15,
+        title: "Custom",
+        feature: [
+            "Hosted by us.",
+            "Unlimited Links.",
+            "Up to 30,000 Links.",
+            "Unlimited Collections.",
+            "Unlimited Tags.",
+            "All the premium",
+            "Priority support.",
+            "Automatic updates.",
+            "Fully customizable instance.",
+            "Single Sign-On (SSO).",
+            "Support open source!"
+
+        ]
+
+    },
+    
+]
 
 export const faq = [
     {
@@ -396,68 +353,68 @@ export const service = [
     },
     {
         id:2,
-        icon: f1,
+        icon: f2,
         title: "Responsive Design",
         content: "Responsive design for all screens, from widescreen to smartphones."
     },
     {
         id:3,
-        icon: f1,
-        title: "Open Source, Self-hostable",
-        content: "Our source code is on GitHub for easy deployment on your machine."
+        icon: f3,
+        title: "Powerful Search",
+        content: "Effortlessly search and filter curated content across all collections."
     },
     {
         id:4,
-        icon: f1,
-        title: "Open Source, Self-hostable",
-        content: "Our source code is on GitHub for easy deployment on your machine."
+        icon: f4,
+        title: "Pin your favourite pages",
+        content: "Pin your favourite pages"
     },
     {
         id:5,
-        icon: f1,
-        title: "Open Source, Self-hostable",
-        content: "Our source code is on GitHub for easy deployment on your machine."
+        icon: f5,
+        title: "Privacy Friendly",
+        content: "Privacy is a fundamental human right. We won't sell your data to third parties."
     },
     {
         id:6,
-        icon: f1,
-        title: "Open Source, Self-hostable",
-        content: "Our source code is on GitHub for easy deployment on your machine."
+        icon: f6,
+        title: "Import & Export your data",
+        content: "You can import and export your data easily from the settings."
     },
     {
         id:7,
-        icon: f1,
-        title: "Open Source, Self-hostable",
-        content: "Our source code is on GitHub for easy deployment on your machine."
+        icon: f7,
+        title: "Dark & Light mode Supported",
+        content: "Easily toggle between dark and light mode, whichever you prefer."
     },
     {
         id:8,
-        icon: f1,
-        title: "Open Source, Self-hostable",
-        content: "Our source code is on GitHub for easy deployment on your machine."
+        icon: f8,
+        title: "Browser Extension",
+        content: "Collect webpages directly from your browser with our open-source extension."
     },
     {
         id:9,
-        icon: f1,
-        title: "Open Source, Self-hostable",
-        content: "Our source code is on GitHub for easy deployment on your machine."
+        icon: f9,
+        title: "Bulk Actions",
+        content: "Edit or delete multiple items at once."
     },
     {
         id:10,
-        icon: f1,
-        title: "Open Source, Self-hostable",
-        content: "Our source code is on GitHub for easy deployment on your machine."
+        icon: f10,
+        title: "Secure API Integration",
+        content: "Connect and secure your integrations using access tokens to create custom solutions and automate with ease."
     },
     {
         id:11,
-        icon: f1,
-        title: "Open Source, Self-hostable",
+        icon: f11,
+        title: "Installable PWA for Mobile",
         content: "Our source code is on GitHub for easy deployment on your machine."
     },
     {
         id:12,
-        icon: f1,
-        title: "Open Source, Self-hostable",
-        content: "Our source code is on GitHub for easy deployment on your machine."
+        icon: f12,
+        title: "And Many More Features...",
+        content: "We're constantly improving and got tons of updates planned, some are outlined in our public roadmap."
     },
 ]
