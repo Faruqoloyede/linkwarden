@@ -13,6 +13,7 @@ export default {
         service: "#181818",
         border: "#828282",
         b2: "#38353D",
+        pb: "#43484B",
         red: "#DC2626",
         s2: "#828282",
         icon: "#65A3CF",
