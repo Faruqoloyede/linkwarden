@@ -7,7 +7,7 @@ import CountUp from 'react-countup'
 import Button from '../components/Button'
 import { check } from '../assets'
 
-const Plan = () => {
+const Pricing = () => {
     const [monthly, setMonthly] = useState(false)
   return (
     <section>
@@ -22,7 +22,7 @@ const Plan = () => {
                     <h3 className='font-poppins font-semibold text-4xl max-mmd:text-3xl max-sm:text-2xl text-center my-10'>Pick the Right Plan for You</h3>
                     <div className='scroll-hide relative z-2 mt-12 flex items-start gap-5 max-xl:gap-5 max-xl:overflow-auto max-xl:pt-6'>
                         {plans.map((plan, index)=>(
-                            <div key={plan.id} className={clsx("max-xl:min-w-80 h-auto border-2 p-6 rounded-[12px] border-pb mt-16 xl:w-[calc(33.33%+2px)]", index === 1 && ("g4 h-auto -mt-5 g2 "))}>
+                            <div key={plan.id} className={clsx("max-xl:min-w-80 h-auto border-2 p-6 rounded-[12px] border-pb mt-16 xl:w-[calc(33.33%+2px)]", index === 1 && ("h-auto -mt-5 g2 "))}>
                                 <div className='flex flex-col items-center justify-center'>
                                     <h3 className='text-xl font-normal font-poppins text-icon'>{plan.caption}</h3>
                                     <div className='relative z-2 flex items-center justify-center my-5'>
@@ -50,6 +50,7 @@ const Plan = () => {
                                         ))}
                                     </ul>
                                 </div>
+                                {index === 1 && <p className='font-poppins font-normal text-[16px] text-center mt-9'>14-day free trial, cancel anytime.</p>}
                             </div>
                         ))}
                     </div>
@@ -61,4 +62,4 @@ const Plan = () => {
   )
 }
 
-export default Plan
+export default Pricing
