@@ -9,7 +9,7 @@ const Header = () => {
   const [toggle, setToggle] = useState(false)
   const [HasScroll, setHasScroll] = useState(false)
   const Navlink = ({ title })=>(
-    <LinkScroll to={title} offset={-100} spy smooth className='text-white uppercase font-poppins font-normal transition-colors duration-500 cursor-pointer hover:text-[#5312C6] max-lg:my-4'>{title}</LinkScroll>
+    <LinkScroll to={title} offset={-100} spy smooth className='text-white uppercase font-poppins font-normal transition-colors duration-500 cursor-pointer hover:text-[#5312C6] max-lg:my-4' onClick={()=> setToggle(false)}>{title}</LinkScroll>
   ) 
 
   useEffect(()=>{
@@ -26,7 +26,7 @@ const Header = () => {
     <header>
         <div className={clsx("fixed top-0 left-0 z-50 w-full py-10 transition-all duration-500", HasScroll && "bg-primary py-10 backdrop-blur-[8px]")}>
             <div className='container flex h-4 items-center justify-between'>
-                <LinkScroll to='home' offset={-100} spy smooth>
+                <LinkScroll to='home' offset={-100} spy smooth >
                   <img src={logo} alt="logo" width={200} height={55} className='cursor-pointer' />
                 </LinkScroll>
                 <ul className='list-none flex items-center gap-10 justify-center flex-1 max-lg:hidden'>
