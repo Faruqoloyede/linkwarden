@@ -22,7 +22,7 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className='flex  flex-col-reverse items-center'>
+                    <div className='flex  flex-col max-lg:flex-col-reverse items-center'>
                     <h4 className='text-[20px] font-poppins font-normal max-lg:hidden'>Contact Us</h4>
                     <a href="support@linkwarden.app" className='text-center mt-5'>support@linkwarden.app</a>
                     <div className='flex items-center justify-center gap-5 mt-10'>
