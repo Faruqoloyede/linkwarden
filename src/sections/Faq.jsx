@@ -7,7 +7,7 @@ const Faq = () => {
   return (
     <section>
         <Element name="FAQS">
-            <div className="container relative py-28 z-2">
+            <div className="container relative py-12 z-2">
                 <div>
                     <h1 className='text-[40px] max-lg:text-[30px] font-poppins font-semibold text-center'>Frequently Asked Questions</h1>
                     <div className='relative border-2 border-pb p-12 max-lg:p-6 g2 rounded-xl mt-12'>

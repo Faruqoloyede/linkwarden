@@ -13,7 +13,7 @@ const Pricing = () => {
     <section>
         <Element name='Pricing'>
             <div className="container">
-                <div className='max-w-900  relative mx-auto bg-primary pb-40 pt-28 max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16'>
+                <div className='max-w-900  relative mx-auto bg-primary pb-0 pt-28 max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16'>
                     <div className='relative z-4 mx-auto flex w-[375px] rounded-3xl border-[3px] border-pb p-2 backdrop-blur-[6px] max-md:w-[310px]'>
                     <button className={clsx("pricing-head_btn", monthly && "text-white")} onClick={()=>setMonthly(true)}>Monthly</button>
                     <button className={clsx("pricing-head_btn" , !monthly && "text-grey")} onClick={()=> setMonthly(false)}>Yearly</button>
