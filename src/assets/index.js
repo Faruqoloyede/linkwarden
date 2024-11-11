@@ -25,6 +25,10 @@ import f9 from "./f9.png";
 import f10 from "./f10.png";
 import f11 from "./f11.png";
 import f12 from "./f12.png";
+import s1 from "./s1.png";
+import s2 from "./s2.png";
+import s3 from "./s3.png";
+import s4 from "./s4.png";
 
 
 
@@ -55,5 +59,9 @@ export {
     f9,
     f10,
     f11,
-    f12
+    f12,
+    s1,
+    s2,
+    s3,
+    s4
 };
