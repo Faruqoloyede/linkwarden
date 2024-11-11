@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Element } from 'react-scroll'
 import { f1 } from '../assets'
 import { service } from '../constant'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Features = () => {
+    useEffect(()=>{
+        Aos.init({duration: 2000})
+    }, [])
   return (
     <section className='relative z-2 pt-32 max-lg:pt-20 pb-10'>
         <Element name='Features'>
@@ -12,7 +17,7 @@ const Features = () => {
                 <div className='grid grid-cols-3 items-center justify-center max-sm:grid-cols-1 max-sm:items-center max-sm:justify-center gap-5'>
                   
                     {service.map(({ id, icon, title, content} )=>(
-                          <div key={id} className='h-auto border-2 border-b2 box px-3 py-5 rounded-3xl'>
+                          <div key={id} className='h-auto border-2 border-b2 box px-3 py-5 rounded-3xl' data-aos = "fade-up">
                           <div className='flex flex-col items-center justify-center mb-3'>
                           <img src={icon} alt="" className=' p-5 rounded-[20px] w-[80px] object-contain icon' />
                           </div>
